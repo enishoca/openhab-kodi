@@ -1,14 +1,7 @@
-import xbmcplugin
-import xbmcgui
-import xbmcaddon
-import sys
-import os
-import os.path
-import xbmc
-import urllib2
+import xbmc, xbmcplugin, xbmcgui, xbmcaddon, xbmc
+import sys, os, os.path, traceback
+import urllib2, urllib, urlparse
 import json
-import urllib
-import urlparse
 import resources.lib.openhab as openhab
 import resources.lib.gui as gui
 import resources.lib.addon_util as addon_util
@@ -165,9 +158,8 @@ if mode is None:
 				xbmcplugin.addDirectoryItem(handle=thisPlugin, url=url,listitem=listItem, isFolder=False)
 		xbmcplugin.endOfDirectory(thisPlugin)
 	except Exception as e:
-		exc_type, exc_obj, exc_tb = sys.exc_info()
-		fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-		print(exc_type, fname, exc_tb.tb_lineno)
+		exc_type, exc_value, exc_traceback = sys.exc_info()
+		traceback.print_exc()
 		addon_util.parseError("Main Menu", e, type(e).__name__, langage)
 		xbmc.executebuiltin("XBMC.StopScript("+__addon__.getAddonInfo('id')+")")
 
@@ -185,9 +177,8 @@ elif mode[0] == 'floor':
 			addon_util.log_debug("Floor Item : [%s]" %(item.label))
 		xbmcplugin.endOfDirectory(thisPlugin)
 	except Exception as e:
-		exc_type, exc_obj, exc_tb = sys.exc_info()
-		fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-		print(exc_type, fname, exc_tb.tb_lineno)
+		exc_type, exc_value, exc_traceback = sys.exc_info()
+		traceback.print_exc()
 		addon_util.parseError("Floor", e, type(e).__name__, langage)
 		xbmc.executebuiltin("XBMC.StopScript("+__addon__.getAddonInfo('id')+")")
 
@@ -203,8 +194,7 @@ elif mode[0] == 'room':
 		window.doModal()
 		del window
 	except Exception as e:
-		exc_type, exc_obj, exc_tb = sys.exc_info()
-		fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-		print(exc_type, fname, exc_tb.tb_lineno)
+		exc_type, exc_value, exc_traceback = sys.exc_info()
+		traceback.print_exc()
 		addon_util.parseError("Floor", e, type(e).__name__, langage)
 		xbmc.executebuiltin("XBMC.StopScript("+__addon__.getAddonInfo('id')+")")
