@@ -5,7 +5,7 @@ The code as it stands now is compatible with the Kodi (Helix) the current versio
 
 ## Installation and Usage
 1. [Download](https://raw.githubusercontent.com/enishoca/openhab-kodi/master/openHab-Kodi.1.0.2.zip) the current version or alternatively click on the the zip file link above - then right click on 'View Raw' link and save the file.  
-**DO NOT use the zip downloaded with ZIP button** on this page directly on Kodi, it downloads the source tree which is not an addin zip.
+**DO NOT use the zip downloaded with ZIP button on this page directly on Kodi,** it downloads the source tree which is not an addin zip.
 2. install it as you would normally install Kodi addons. You will need to go in the setings menu and change the default settings for the addon to match your installation.
 
 e.g.
