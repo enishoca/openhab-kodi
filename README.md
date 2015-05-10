@@ -19,8 +19,8 @@ e.g.
 
 ##Screenshots from the original addin
 
-[![Add-on Home](http://air.imag.fr/images/9/97/Screenshot_xbmcOpenhab_1.png)](http://air.imag.fr/images/9/97/Screenshot_xbmcOpenhab_1.png)
-[![View Floors](http://air.imag.fr/images/7/77/Screenshot_xbmcOpenhab_2.png)](http://air.imag.fr/images/7/77/Screenshot_xbmcOpenhab_2.png)
-[![View rooms](http://air.imag.fr/images/5/52/Screenshot_xbmcOpenhab_3.png)](http://air.imag.fr/images/5/52/Screenshot_xbmcOpenhab_3.png)
-[![Details parts](http://air.imag.fr/images/6/66/Screenshot_xbmcOpenhab_4.png)](http://air.imag.fr/images/6/66/Screenshot_xbmcOpenhab_4.png)
+[![Add-on Home](images/Screenshot_xbmcOpenhab_1.png)](images/Screenshot_xbmcOpenhab_1.png)
+[![View Floors](images/Screenshot_xbmcOpenhab_2.png)](images/Screenshot_xbmcOpenhab_2.png)
+[![View rooms](images/Screenshot_xbmcOpenhab_3.png)](images/Screenshot_xbmcOpenhab_3.png)
+[![Details parts](images/Screenshot_xbmcOpenhab_4.png)](images/Screenshot_xbmcOpenhab_4.png)
 
