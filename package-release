@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ -z "$1" ]
+  then
+    echo "No argument supplied"
+    exit
+fi
+
+zip -r openHab-Kodi.1.0.1.zip script.module.openhab
+
+find . -name ".DS_Store" -type f -delete
+

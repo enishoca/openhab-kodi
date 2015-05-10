@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Document : settings.xml
+Created on : September 9, 2010, 1:45 PM
+Author : Ashley Kitson
+Description: Settings for gpodder example
+(XBMC Addons Developer Guide example 2)
+-->
+<settings>
+  <setting label="30000" id="host"  type="ipaddress" default="127.0.0.1" /> 
+  <setting label="30001" id="port"  type="number" default='8080' />
+  <setting label="30002" id="name"  type="text" default='default' />
+  <setting label="30003" id="id"    type="text" default='default' />
+  <setting label="30007"  id="debug" type="bool" default="false"/>
+</settings>

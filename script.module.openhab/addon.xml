@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.openhab" name="openhHab for Kodi" version="1.0.1" provider-name="Bianco Jean-François, Poustis Rebecca">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="xbmc.gui" version="5.3.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Plugin openHab</summary>
+    <description lang="en">openHab for Kodi is used to control an openHab installation on the local network.[CR]This plugin is adapted from XBMC openHab plugin by Bianco Jean-François, Poustis Rebecca located at http://air.imag.fr/index.php/Extensions_XBMC#Plugin_openHab [CR]To contact original authors send email to xbmc_ricm5@googlegroups.com
+    </description>
+    <disclaimer lang="en">Kodi, xbmc and openHab are trademarks of their respective owners.   </disclaimer>
+    <language>en fr</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>https://github.com/enishoca/openhab-kodi</website>
+    <source>https://github.com/enishoca/openhab-kodi</source>
+  </extension>
+</addon>

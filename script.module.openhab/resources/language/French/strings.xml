@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+
+  <!-- French -->
+  <!-- Script Settings -->
+
+	<string id="30000">Adresse du serveur OpenHab</string>
+	<string id="30001">Port du serveur OpenHab</string>
+	<string id="30002">Nom du serveur OpenHab</string>
+	<string id="30003">Id du serveur OpenHab</string>
+	<string id="30004">Une erreur est intervenue</string>
+	<string id="30005">Connection indisponible</string>
+	<string id="30006">Fichier ou dossier non trouvé</string>
+	<string id="30007">Debug</string>
+</strings>
