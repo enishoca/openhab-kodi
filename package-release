@@ -5,7 +5,7 @@ if [ -z "$1" ]
     exit
 fi
 
-zip -r openHab-Kodi.1.0.1.zip script.module.openhab
+zip -r $1 script.module.openhab
 
 find . -name ".DS_Store" -type f -delete
 
