@@ -13,8 +13,8 @@ e.g.
 1. Server IP address : 127.0.0.1
 1. Server port : 8080 
 1. Sitemap name : default
-1. Start page : default
-   Edit your sitemake the first line looks like this:
+1. Start page : default<br>
+   Edit your sitemap the first line looks like this:
     sitemap default label="My Sitemap"
   This is the name betweeen 'sitemap' and 'label' - here it is default
 1. Debug: Off 
