@@ -14,10 +14,14 @@ e.g.
 1. Server port : 8080 
 1. Sitemap name : default
 1. Start page : default
+   Edit your sitemake the first line looks like this:
+    sitemap default label="My Sitemap"
+  This is the name betweeen 'sitemap' and 'label' - here it is default
+1. Debug: Off 
 
 
 ##Limitations
-Thic code is not very flexible in how it deals with layouts.  It expects items to be under groups, if you have controls directly inside frames this code will not run, it ignores text times such as dates, temperature etc that may be directly under frames but will break on switches dimmers etc if they are not in groups.
+Thic code is not very flexible in how it deals with layouts.  It expects items to be under groups, if you have controls directly inside frames this code will not run, it ignores text times such as dates, temperature etc that may be directly under frames but will break on switches dimmers etc if they are not in groups.  The workaround for this is to create a seperate sitemap that is compatible with this software.  This sitemap should have all the items inside groupds not directly in frames.   
 
 ##Screenshots from the original addin
 
