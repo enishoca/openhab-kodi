@@ -15,7 +15,9 @@ e.g.
 1. Sitemap name : default
 1. Start page : default <br>
    Look at the first line of your sitemap it should looks like this: <br>
-  sitemap default label="My Sitemap" <br>
+```
+  sitemap default label="My Sitemap"
+```  
   This is the name betweeen 'sitemap' and 'label' - here it is default
 1. Debug: Off 
 
