@@ -17,7 +17,7 @@ e.g.
 
 
 ##Limitations
-Thic code is not very flecible in how it deals with layouts.  It expects items to be under groups, if you have controls directly inside frames this code will not run, it ignores text times such as dates, temperature etc that may be directly under frames but will break on switches dimmers etc if they are not in groups.
+Thic code is not very flexible in how it deals with layouts.  It expects items to be under groups, if you have controls directly inside frames this code will not run, it ignores text times such as dates, temperature etc that may be directly under frames but will break on switches dimmers etc if they are not in groups.
 
 ##Screenshots from the original addin
 
