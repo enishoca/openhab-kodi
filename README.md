@@ -13,10 +13,9 @@ e.g.
 1. Server IP address : 127.0.0.1
 1. Server port : 8080 
 1. Sitemap name : default
-1. Start page : default
-
-   Edit your sitemap the first line looks like this:
-   [code] sitemap default label="My Sitemap"[/code]
+1. Start page : default <bt>
+   Edit your sitemap the first line looks like this: <br>
+  sitemap default label="My Sitemap" <br>
   This is the name betweeen 'sitemap' and 'label' - here it is default
 1. Debug: Off 
 
