@@ -16,6 +16,8 @@ e.g.
 1. Start page : default
 
 
+##Limitations
+Thic code is not ery flecible in how it deals with layouts.  It expects items to be under groups, if you have controls directly inside frames this code will not run, it ignores text times such as dates, temperature etc that may be directly under frames but will break on switches dimmers etc if they are not in groups.
 
 ##Screenshots from the original addin
 
