@@ -4,7 +4,7 @@ This is a Kodi (formerly known as xbmc) plugin for Openhab.  It allows users to 
 The code as it stands now is compatible with the Kodi (Helix) the current version at the time of writing this.
 
 ## Installation and Usage
-1. [Download](https://raw.githubusercontent.com/enishoca/openhab-kodi/master/openHab-Kodi.1.0.2.zip) the current version or alternatively click on the the zip file link above - then right click on 'View Raw' link and save the file.  
+1. [Download](https://raw.githubusercontent.com/enishoca/openhab-kodi/master/openHab-Kodi.1.0.2.zip) the current version or alternatively click on the zip file link above - then right click on 'View Raw' link and save the file.  
 **DO NOT use the zip downloaded with ZIP button on this page directly on Kodi,** it downloads the source tree which amd it does not have the correct sturcture to load as an addin.
 2. install it as you would normally install Kodi addons. You will need to go in the setings menu and change the default settings for the addon to match your installation.
 
